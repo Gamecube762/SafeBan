@@ -1,0 +1,24 @@
+name: SafeBan
+main: com.github.Gamecube762.SafeBan.Main
+author: Gamecube762
+version: 0.1
+prefix: SafeBan
+commands:
+   SafeBan:
+      description: SafeBan command
+      usage: /<command>
+      permission: SafeBan.command
+      permission-message: You don't have permission to use this!
+permissions:
+   SafeBan.command:
+      description: /SafeBan command
+      default: false
+   SafeBan.command.savelist:
+      description: /SafeBan command
+      default: false
+   SafeBan.bypass:
+      description: bypasses safeban
+      default: false
+   SafeBan.Alert.BanWasAccepted:
+      description: Alerts when a ban was accepted
+      default: false
